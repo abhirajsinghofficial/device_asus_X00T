@@ -344,10 +344,9 @@ PRODUCT_ENFORCE_RRO_TARGETS := \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power@1.1-service-qti
-
+    android.hardware.power@1.2-service.x00t-libperfmgr
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml
+   $(LOCAL_PATH)/power-libperfmgr/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
 
 # Public Libraries
 PRODUCT_COPY_FILES += \
@@ -373,7 +372,8 @@ PRODUCT_PACKAGES += \
     init.qcom.rc \
     init.qcom.usb.rc \
     init.target.rc \
-    ueventd.qcom.rc
+    ueventd.qcom.rc \
+    init.performance.x00t.rc
 
 # RCS
 PRODUCT_PACKAGES += \
