@@ -170,7 +170,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vidc.enc.dcvs.extra-buff-count=2 \
     vidc.enc.target_support_bframe=1 \
     debug.stagefright.omx_default_rank.sw-audio=1 \
-    debug.stagefright.omx_default_rank=0
+    debug.stagefright.omx_default_rank=0 \
+    vendor.vidc.enc.disable.pq=true
 
 # Memory optimizations
 PRODUCT_PROPERTY_OVERRIDES += \
