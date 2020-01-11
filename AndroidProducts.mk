@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2018-2019 The LineageOS Project
+# Copyright (C) 2019 TitaniumOS
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,7 +15,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_X00T.mk
+    $(LOCAL_DIR)/titanium_X00T.mk
 
 COMMON_LUNCH_CHOICES := \
-      lineage_X00T-userdebug
+      titanium_X00T-userdebug

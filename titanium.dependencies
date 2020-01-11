@@ -1,0 +1,14 @@
+[
+  {
+    "remote":"github",
+    "repository": "Quantummech2000/WolfKernel",
+    "target_path": "kernel/asus/sdm660",
+    "branch":"EAS-pie"
+  },
+  {
+    "remote":"github"
+    "repository": "LineageOS/android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings",
+    "branch":"lineage-17.0"
+  }
+]
