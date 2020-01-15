@@ -410,6 +410,7 @@ PRODUCT_PACKAGES += \
     move_wifi_data.sh \
     fstab.qcom \
     init.msm.usb.configfs.rc \
+    init.recovery.qcom.rc \
     init.qcom.rc \
     init.qcom.usb.rc \
     init.target.rc \
